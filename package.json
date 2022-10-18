@@ -9,7 +9,7 @@
     "start": "concurrently --kill-others \"npm run start:stencil\" \"npm run start:storybook\"",
     "start:storybook": "start-storybook -c .storybook -p 6006",
     "start:stencil": "npm run start -w packages/core",
-    "build:storybook": "build-storybook"
+    "build:storybook": "build-storybook -o docs"
   },
   "author": "Duncan Hunter",
   "license": "ISC",
