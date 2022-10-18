@@ -1,0 +1,17 @@
+import Readme from "./readme.md";
+import { Canvas, Meta, Story } from "@storybook/addon-docs";
+
+<Meta title="MyInput" />
+
+# MyInput
+
+export const Template = (args) =>
+  `<my-input value="${args.value}">Save</my-input>`;
+
+<Canvas>
+  <Story name="Default" args={{ value: "" }}>
+    {Template.bind({})}
+  </Story>
+</Canvas>
+
+<Readme />

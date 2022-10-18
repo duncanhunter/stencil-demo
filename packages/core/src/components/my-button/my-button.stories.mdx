@@ -1,0 +1,14 @@
+import Readme from "./readme.md";
+import { Canvas, Meta, Story } from "@storybook/addon-docs";
+
+<Meta title="MyButton" />
+
+# MyButton
+
+export const Template = (args) => `<my-button>Save</my-button>`;
+
+<Canvas>
+  <Story name="Default">{Template.bind({})}</Story>
+</Canvas>
+
+<Readme />

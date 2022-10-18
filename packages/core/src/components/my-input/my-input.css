@@ -1,0 +1,4 @@
+input:focus {
+  outline: var(--my-theme-focus-ring-outline);
+  outline-offset: var(--my-theme-focus-ring-outline-offset);
+}

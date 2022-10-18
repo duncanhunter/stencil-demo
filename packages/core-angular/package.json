@@ -1,0 +1,29 @@
+{
+  "name": "@stencil-demo/core-angular",
+  "version": "0.0.1",
+  "description": "Stencil demo core angular wrapper components",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.js",
+  "es2015": "dist/esm/index.mjs",
+  "es2017": "dist/esm/index.mjs",
+  "types": "dist/types/index.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "collection:main": "dist/collection/index.js",
+  "unpkg": "dist/core/core.esm.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/duncanhunter/stencil-demo.git"
+  },
+  "files": [
+    "dist/",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "build": "ng-packagr -p ng-package.json"
+  },
+  "devDependencies": {
+    "@angular/forms": "^14.2.3",
+    "@stencil-demo/core": "0.0.1"
+  },
+  "license": "MIT"
+}
