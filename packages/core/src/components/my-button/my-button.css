@@ -1,5 +1,6 @@
 button {
   background-color: var(--my-button-background-color-primary);
+  color: var(--my-button-color-text);
 }
 
 button:focus {
