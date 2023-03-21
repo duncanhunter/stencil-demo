@@ -1,4 +1,3 @@
-// import "./../packages/core/src/theme.css";
 import { defineCustomElements } from "../packages/core/loader";
 import cssVariablesTheme from "@etchteam/storybook-addon-css-variables-theme";
 
